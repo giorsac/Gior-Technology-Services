@@ -24,8 +24,6 @@ Para generar el token se le brindará sus respectivas credenciales de acceso (Us
 
 ```json
 {
-    username: 12345678901,
-    password: 5eND0NwXx&A5
 }
 ```
 
