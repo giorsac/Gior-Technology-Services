@@ -4,8 +4,6 @@ Cuando se realiza una solicitud errada a la API, el sistema devolverá una **est
 
 A continuación se describe el **formato general** y el significado de cada campo retornado.
 
----
-
 #### **🧬 Estructura de Error General**
 
 ```json
@@ -22,7 +20,7 @@ A continuación se describe el **formato general** y el significado de cada camp
 
 #### **Descripción Campos :**
 
-|**Parámetro**|**Tipo**|                                                     **Descripción**                                           |
+|**Parámetro**|**Tipo**|                                                 **Descripción**                                               |
 |:-----------:|:------:|:-------------------------------------------------------------------------------------------------------------:|
 |    status   |  int   |                Código HTTP que indica el tipo de error (por ejemplo: 400, 401, 404, 500, etc.).               |
 | is_rejected |  bool  | Indica si el comprobante fue rechazado. Este campo solo aparece cuando se trata de comprobantes electrónicos. |
