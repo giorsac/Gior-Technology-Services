@@ -1,0 +1,64 @@
+ {
+  "numeracion": "F008-00000011",
+  "moneda": "USD",
+  "ubigeo_emisor": "040128",
+  "codigo_local_anexo_emisor": "0000",
+  "tipo_operacion": "0101",
+  "codigo_pais_emisor": "PE",
+  "direccion_emisor": "Calle Mariscal Benavides",
+  "tipo_documento_identidad_adquirente": "6",
+  "numero_documento_identidad_adquirente": "20100018625",
+  "denominacion_adquirente": "MEDIFARMA S A",
+  "fecha_emision": "2024-11-27",
+  "hora_emision": "08:45:10",
+  "fecha_vencimiento": "2024-05-09",
+  "numero_orden_compra_o_servicio": "4510014525",
+  "numero_ruc_emisor": "20515809822",
+  "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
+  "items": [
+    {
+      "unidad_medida": "CY",
+      "cantidad": "12.00000",
+      "codigo": "001",
+      "descripcion": "TELEVISOR CON RACK",
+      "valor_unitario": "160.000000",
+      "precio_venta_unitario": "188.800000",
+      "codigo_precio_venta_unitario": "01",
+      "monto_total_tributos": "345.60",
+      "tributos": [
+        {
+          "monto_base": "1920.00",
+          "monto_tributo": "345.60",
+          "tasa_tributo": "18.00",
+          "tipo_afectacion_igv": "10",
+          "codigo_tributo": "1000",
+          "nombre_tributo": "IGV",
+          "codigo_internacional_tributo": "VAT"
+        }
+      ],
+      "valor_venta": "1920.00"
+    }
+  ],
+  "total": "2265.60",
+  "total_valor_venta": "1920.00",
+  "subtotal_venta": "2265.60",
+  "monto_total_tributos": "345.60",
+  "tributos": [
+    {
+      "monto_base": "1920.00",
+      "monto_tributo": "345.60",
+      "codigo_tributo": "1000",
+      "nombre_tributo": "IGV",
+      "codigo_internacional_tributo": "VAT"
+    }
+  ],
+  "cargos_descuentos": [
+    {
+      "indicador_cargo_descuento": false,
+      "codigo_cargo_descuento": "62",
+      "factor_cargo_descuento": "0.03000",
+      "monto_cargo_descuento": "67.97",
+      "monto_base_cargo_descuento": "2265.60"
+    }
+  ]
+}

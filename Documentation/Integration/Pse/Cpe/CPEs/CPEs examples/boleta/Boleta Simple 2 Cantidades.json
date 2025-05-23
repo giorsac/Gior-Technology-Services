@@ -1,0 +1,65 @@
+{
+  "numeracion": "B011-11",
+  "fecha_emision": "2024-11-12",
+  "hora_emision": "15:23:02",
+  "moneda": "PEN",
+  "numero_ruc_emisor": "20515809822",
+  "nombre_comercial_emisor": "GIOR TECHNOLOGY S.A.C.",
+  "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
+  "direccion_emisor": "AV. JAVIER PRADO ESTE 6210, LA MOLINA 15023",
+  "urbanizacion_emisor": "-",
+  "provincia_emisor": "LIMA",
+  "ubigeo_emisor": "150114",
+  "departamento_emisor": "LIMA",
+  "distrito_emisor": "LA MOLINA",
+  "codigo_pais_emisor": "PE", 
+  "codigo_local_anexo_emisor": "0000",
+  "tipo_documento_identidad_adquirente": "1",
+  "numero_documento_identidad_adquirente": "12345678",
+  "denominacion_adquirente": "JUAN ANTONIO BLAZ RIME",
+  "direccion_adquirente": "LIMA",
+  "urbanizacion_adquirente": "-",
+  "provincia_adquirente": "LIMA",
+  "ubigeo_adquirente": "150101",
+  "departamento_adquirente": "LIMA",
+  "distrito_adquirente": "LIMA",
+  "codigo_pais_adquirente": "PE",   
+  "items": [
+    {
+      "unidad_medida": "NIU",
+      "cantidad": "2",
+      "codigo": "99100000001",      
+      "descripcion": "Present Art.",
+      "valor_unitario": "30.000000",
+      "precio_venta_unitario": "35.400000",
+      "codigo_precio_venta_unitario": "01",
+      "monto_total_tributos": "10.08",
+      "tributos": [
+        {
+          "monto_base": "60.00",
+          "monto_tributo": "10.08",
+          "tasa_tributo": "18.000",
+          "tipo_afectacion_igv": "10",
+          "codigo_tributo": "1000",
+          "nombre_tributo": "IGV",
+          "codigo_internacional_tributo": "VAT"
+        }
+      ],
+      "valor_venta": "60.00"
+    }
+  ],
+  "monto_total_tributos": "10.08",
+  "tributos": [
+    {
+      "monto_base": "60.00",
+      "monto_tributo": "10.08",
+      "codigo_tributo": "1000",
+      "nombre_tributo": "IGV",
+      "codigo_internacional_tributo": "VAT"
+    }
+  ], 
+  "total": "70.80",
+  "total_valor_venta": "60.00",
+  "subtotal_venta": "70.80", 
+  "tipo_operacion": "0101"  
+}

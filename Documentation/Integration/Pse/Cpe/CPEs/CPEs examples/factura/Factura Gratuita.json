@@ -1,0 +1,54 @@
+{
+        "numeracion": "F010-00000001",
+        "moneda": "PEN",
+        "ubigeo_emisor": "040128",
+        "codigo_local_anexo_emisor": "0000",
+        "tipo_operacion": "0101",
+        "codigo_pais_emisor": "PE",
+        "direccion_emisor": "Calle Mariscal Benavides",
+        "tipo_documento_identidad_adquirente": "6",
+        "numero_documento_identidad_adquirente": "20604997551",
+        "denominacion_adquirente": "KAPITAL TELEKOM S.A.C.",
+        "fecha_emision": "2024-09-24",
+        "fecha_vencimiento": "2024-05-09",
+        "numero_orden_compra_o_servicio": "0001",
+        "numero_ruc_emisor": "20515809822",
+        "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
+        "items": [
+          {
+            "unidad_medida": "NIU",
+            "cantidad": "2",
+            "codigo": "001",
+            "descripcion": "Mesa",
+            "valor_unitario": "0.00",
+            "precio_venta_unitario": "100.00",
+            "codigo_precio_venta_unitario": "02",
+            "monto_total_tributos": "36.00",
+            "tributos": [
+              {
+                "monto_base": "200.00",
+                "monto_tributo": "36.00",
+                "tasa_tributo": "18.00",
+                "tipo_afectacion_igv": "11",
+                "codigo_tributo": "9996",
+                "nombre_tributo": "GRA",
+                "codigo_internacional_tributo": "FRE"
+              }
+            ],
+            "valor_venta": "200.00"
+          }
+        ],
+        "total": "0.00",
+        "total_valor_venta": "0.00",
+        "subtotal_venta": "0.00",
+        "monto_total_tributos": "0.00",
+        "tributos": [
+            {
+                "monto_base": "200.00",
+                "monto_tributo": "36.00",
+                "codigo_tributo": "9996",
+                "nombre_tributo": "GRA",
+                "codigo_internacional_tributo": "FRE"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "identificador_comunicacion": "RA-20250409-00001",
+  "fecha_emision_documentos_dados_baja": "2025-04-09",
+  "numero_ruc_emisor": "20515809822",
+  "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
+  "documentos_dados_baja": [
+    {
+      "codigo_tipo_documento": "01",
+      "serie_documento": "F001",
+      "numero_correlativo_documento": "00001004",
+      "motivo_baja": "MOTIVO DE BAJA DEL COMPROBANTE (DESCRIPCIÓN EXPLICITA MAYOR A 3 CARACTERES)"
+    }
+  ]
+}

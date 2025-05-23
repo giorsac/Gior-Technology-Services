@@ -1,0 +1,198 @@
+{
+  "numeracion": "string",
+  "fecha_emision": "string",
+  "hora_emision": "string",
+  "codigo_tipo_nota_credito": "string",
+  "motivo_sustenta_emision_nota_credito": "string",
+  "moneda": "string",
+  "numero_ruc_emisor": "string",
+  "nombre_comercial_emisor": "string",
+  "denominacion_emisor": "string",
+  "direccion_emisor": "string",
+  "urbanizacion_emisor": "string",
+  "provincia_emisor": "string",
+  "ubigeo_emisor": "string",
+  "departamento_emisor": "string",
+  "distrito_emisor": "string",
+  "codigo_pais_emisor": "string",
+  "codigo_local_anexo_emisor": "string",
+  "tipo_documento_identidad_adquirente": "string",
+  "numero_documento_identidad_adquirente": "string",
+  "denominacion_adquirente": "string",
+  "correo_electronico_adquirente": "string",
+  "direccion_adquirente": "string",
+  "urbanizacion_adquirente": "string",
+  "provincia_adquirente": "string",
+  "ubigeo_adquirente": "string",
+  "departamento_adquirente": "string",
+  "distrito_adquirente": "string",
+  "codigo_pais_adquirente": "string",
+  "otros_participantes_asociados_transaccion": [
+    {
+      "tipo_documento_identidad_participante": "string",
+      "numero_documento_identidad_participante": "string",
+      "denominacion_participante": "string"
+    }
+  ],
+  "documentos_afectados": [
+    {
+      "numeracion": "string",
+      "tipo_documento": "string"
+    }
+  ],
+  "documentos_relacionados": [
+    {
+      "numeracion_guia": "string",
+      "codigo_tipo_guia": "string",
+      "numeracion_otro_documento": "string",
+      "codigo_tipo_otro_docuemtno": "string"
+    }
+  ],
+  "items": [
+    {
+      "unidad_medida": "string",
+      "cantidad": "string",
+      "codigo": "string",
+      "codigo_producto_sunat": "string",
+      "codigo_producto_GTIN": "string",
+      "tipo_estructura_GTIN": "string",
+      "descripcion": "string",
+      "valor_unitario": "string",
+      "precio_venta_unitario": "string",
+      "codigo_precio_venta_unitario": "string",
+      "monto_total_tributos": "string",
+      "tributos": [
+        {
+          "monto_base": "string",
+          "monto_tributo": "string",
+          "tasa_tributo": "string",
+          "tipo_afectacion_igv": "string",
+          "tipo_sistema_isc": "string",
+          "cantidad_bolsas_plastico": "string",
+          "monto_unitario_bolsas_plastico": "string",
+          "codigo_tributo": "string",
+          "nombre_tributo": "string",
+          "codigo_internacional_tributo": "string"
+        }
+      ],
+      "valor_venta": "string",
+      "gastos_intereses_creditos_hipotecarios": {
+        "numero_contrato": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_otorgamiento_credito": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_prestamo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "partida_registral": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "indicador_primera_vivienda": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "urbanizacion_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "provincia_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "departamento_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "distrito_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "monto_credito_otorgado": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "comprobante_emitido_por_empresas_seguros": {
+        "numero_poliza": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_seguro": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "suma_asegurada_alcance_cobertura_o_monto": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_inicio_vigencia_cobertura": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_termino_vigencia_cobertura": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      }
+    }
+  ],
+  "monto_total_tributos": "string",
+  "tributos": [
+    {
+      "monto_base": "string",
+      "monto_tributo": "string",
+      "codigo_tributo": "string",
+      "nombre_tributo": "string",
+      "codigo_internacional_tributo": "string"
+    }
+  ],
+  "total_cargos_no_afectan_base_imponible_igv": "string",
+  "total": "string",
+  "monto_redondeo_importe_total": "string",
+  "leyendas": [
+    {
+      "codigo": "string",
+      "descripcion": "string"
+    }
+  ],
+  "forma_pago_credito": {
+    "monto_neto_pendiente_pago": "string",
+    "cuotas": [
+      {
+        "monto": "string",
+        "fecha_pago": "string"
+      }
+    ]
+  }
+}

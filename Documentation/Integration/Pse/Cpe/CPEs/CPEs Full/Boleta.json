@@ -1,0 +1,629 @@
+{
+  "numeracion": "string",
+  "fecha_emision": "string",
+  "hora_emision": "string",
+  "moneda": "string",
+  "numero_ruc_emisor": "string",
+  "nombre_comercial_emisor": "string",
+  "denominacion_emisor": "string",
+  "direccion_emisor": "string",
+  "urbanizacion_emisor": "string",
+  "provincia_emisor": "string",
+  "ubigeo_emisor": "string",
+  "departamento_emisor": "string",
+  "distrito_emisor": "string",
+  "codigo_pais_emisor": "string",
+  "direccion_lugar_entrega_bien": "string",
+  "urbanizacion_lugar_entrega_bien": "string",
+  "provincia_lugar_entrega_bien": "string",
+  "ubigeo_lugar_entrega_bien": "string",
+  "departamento_lugar_entrega_bien": "string",
+  "distrito_lugar_entrega_bien": "string",
+  "codigo_pais_lugar_entrega_bien": "string",
+  "codigo_pais_uso_explotacion_o_aprovechamiento_servicio": "string",
+  "codigo_local_anexo_emisor": "string",
+  "tipo_documento_identidad_adquirente": "string",
+  "numero_documento_identidad_adquirente": "string",
+  "denominacion_adquirente": "string",
+  "correo_electronico_adquirente": "string",
+  "direccion_adquirente": "string",
+  "urbanizacion_adquirente": "string",
+  "provincia_adquirente": "string",
+  "ubigeo_adquirente": "string",
+  "departamento_adquirente": "string",
+  "distrito_adquirente": "string",
+  "codigo_pais_adquirente": "string",
+  "otros_participantes_asociados_transaccion": [
+    {
+      "tipo_documento_identidad_participante": "string",
+      "numero_documento_identidad_participante": "string",
+      "denominacion_participante": "string"
+    }
+  ],
+  "direccion_pais_o_lugar_destino": "string",
+  "urbanizacion_pais_o_lugar_destino": "string",
+  "provincia_pais_o_lugar_destino": "string",
+  "ubigeo_pais_o_lugar_destino": "string",
+  "departamento_pais_o_lugar_destino": "string",
+  "distrito_pais_o_lugar_destino": "string",
+  "codigo_pais_o_lugar_destino": "string",
+  "codigo_usuario_zofratacna": "string",
+  "documentos_relacionados": [
+    {
+      "numeracion_guia": "string",
+      "codigo_tipo_guia": "string",
+      "numeracion_otro_documento": "string",
+      "codigo_tipo_otro_documento": "string"
+    }
+  ],
+  "items": [
+    {
+      "unidad_medida": "string",
+      "cantidad": "string",
+      "codigo": "string",
+      "codigo_producto_sunat": "string",
+      "codigo_producto_GTIN": "string",
+      "tipo_estructura_GTIN": "string",
+      "descripcion": "string",
+      "valor_unitario": "string",
+      "precio_venta_unitario": "string",
+      "codigo_precio_venta_unitario": "string",
+      "monto_total_tributos": "string",
+      "tributos": [
+        {
+          "monto_base": "string",
+          "monto_tributo": "string",
+          "tasa_tributo": "string",
+          "tipo_afectacion_igv": "string",
+          "tipo_sistema_isc": "string",
+          "cantidad_bolsas_plastico": "string",
+          "monto_unitario_bolsas_plastico": "string",
+          "codigo_tributo": "string",
+          "nombre_tributo": "string",
+          "codigo_internacional_tributo": "string"
+        }
+      ],
+      "valor_venta": "string",
+      "cargos_descuentos": [
+        {
+          "indicador_cargo_descuento": true,
+          "codigo_cargo_descuento": "string",
+          "factor_cargo_descuento": "string",
+          "monto_cargo_descuento": "string",
+          "monto_base_cargo_descuento": "string"
+        }
+      ],
+      "transporte_terrestre_pasajeros": {
+        "numero_asiento": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "informacion_manifiesto_pasajeros": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_documento_identidad_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_documento_identidad_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "nombres_apellidos_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_lugar_destino": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_destino": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_lugar_origen": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_origen": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_inicio_programado": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "hora_inicio_programado": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "migracion_documentos_autorizados_carta_porte_aereo": {
+        "ubigeo_lugar_origen": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_origen": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_lugar_destino": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_destino": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "migracion_documentos_autorizados_BVME_transporte_ferroviario_pasajeros": {
+        "apellidos_nombres_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_documento_identidad_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_documento_identidad_pasajero": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_lugar_origen_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_origen_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_lugar_destino_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_lugar_destino_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_asiento_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_programada_inicio_viaje_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "hora_programada_inicio_viaje_servicio_transporte": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "ventas_sector_publico": {
+        "numero_expediente": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "codigo_unidad_ejecutora": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_contrato": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_proceso_seleccion": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "detracciones_recursos_hidrobiologicos": {
+        "matricula_embarcacion_pesquera": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "nombre_embarcacion_pesquera": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "descripcion_tipo_especie_vendida": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "lugar_descarga": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "cantidad_especie_vendida": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_descarga": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "detracciones_servicio_transporte_carga": {
+        "ubigeo_punto_origen": "string",
+        "direccion_punto_origen": "string",
+        "ubigeo_punto_destino": "string",
+        "direccion_punto_destino": "string",
+        "detalle_viaje": "string",
+        "valor_referencial_servicio_transporte": "string",
+        "valor_referencial_carga_efectiva": "string",
+        "valor_referencial_carga_util_nominal": "string",
+        "detalle_tramos": [
+          {
+            "ubigeo_punto_origen_viaje": "string",
+            "ubigeo_punto_destino_viaje": "string",
+            "descripcion_tramo": "string",
+            "valor_preliminar_referencial_carga_efectiva": "string"
+          }
+        ],
+        "detalle_vehiculos": [
+          {
+            "configuracion_vehicular": "string",
+            "carga_util_toneladas_metricas": "string",
+            "carga_efectiva_toneladas_metricas": "string",
+            "valor_referencial_tonelada_metrica": "string",
+            "valor_preliminar_referencial_carga_util_nominal": "string",
+            "indicador_aplicacion_factor_retorno_vacio": true
+          }
+        ]
+      },
+      "informacion_adicional": {
+        "partida_arancelaria": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "declaracion_aduanera_mercancias_DAM": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_placa_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "categoria_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "marca_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "modelo_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "color_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "motor_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "combustible_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "formula_rodante_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "numero_identificacion_vehiculo_VIN": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "serie_chasis_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "año_fabricacion_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "año_modelo_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "version_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ejes_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "asientos_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "pasajeros_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ruedas_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "carroceria_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "potencia_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "cilindros_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "cilindrada_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "peso_bruto_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "peso_neto_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "carga_util_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "longitud_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "altura_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ancho_vehiculo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "comprobante_emitido_por_empresas_financieras": {
+        "numero_contrato": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_otorgamiento_credito": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_prestamo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "partida_registral": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "indicador_primera_vivienda": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "ubigeo_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "urbanizacion_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "provincia_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "departamento_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "distrito_direccion_predio": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "monto_credito_otorgado": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "comprobante_emitido_por_empresas_seguros": {
+        "numero_poliza": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "tipo_seguro": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "suma_asegurada_alcance_cobertura_o_monto": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_inicio_vigencia_cobertura": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "fecha_termino_vigencia_cobertura": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      },
+      "comprobante_emitido_por_las_AFP": {
+        "cuspp": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "periodo": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        },
+        "monto_interes_moratorio_comisiones": {
+          "nombre_concepto_tributario": "string",
+          "codigo_concepto_tributario": "string",
+          "valor": "string"
+        }
+      }
+    }
+  ],
+  "monto_total_tributos": "string",
+  "tributos": [
+    {
+      "monto_base": "string",
+      "monto_tributo": "string",
+      "codigo_tributo": "string",
+      "nombre_tributo": "string",
+      "codigo_internacional_tributo": "string"
+    }
+  ],
+  "cargos_descuentos": [
+    {
+      "indicador_cargo_descuento": true,
+      "codigo_cargo_descuento": "string",
+      "factor_cargo_descuento": "string",
+      "monto_cargo_descuento": "string",
+      "monto_base_cargo_descuento": "string"
+    }
+  ],
+  "total_descuentos_no_afectan_base_imponible_igv": "string",
+  "total_cargos_no_afectan_base_imponible_igv": "string",
+  "total": "string",
+  "total_valor_venta": "string",
+  "subtotal_venta": "string",
+  "monto_redondeo_importe_total": "string",
+  "leyendas": [
+    {
+      "codigo": "string",
+      "descripcion": "string"
+    }
+  ],
+  "tipo_operacion": "string",
+  "incoterm": "string",
+  "monto_total_incluido_percepcion": "string",
+  "anticipos": [
+    {
+      "monto": "string",
+      "fecha_pago": "string",
+      "numeracion": "string",
+      "tipo_documento": "string",
+      "numero_ruc_emisor": "string"
+    }
+  ],
+  "total_anticipos": "string",
+  "boleta_venta_sustenta_traslado": {
+    "ubigeo_punto_llegada": "string",
+    "direccion_punto_llegada": "string",
+    "urbanizacion_punto_llegada": "string",
+    "provincia_punto_llegada": "string",
+    "departamento_punto_llegada": "string",
+    "distrito_punto_llegada": "string",
+    "codigo_pais_punto_llegada": "string"
+  },
+  "migracion_documentos_autorizados_BVME_transporte_ferroviario_pasajeros": {
+    "numero_ruc_agente_ventas": "string",
+    "forma_pago_servicio_transporte": "string",
+    "numero_autorizacion_transaccion_sistema_tarjeta_credito_debito_servicio_transporte": "string"
+  },
+  "detraccion": {
+    "codigo_bien_o_servicio": "string",
+    "numero_cuenta_banco_nacion": "string",
+    "medio_pago": "string",
+    "monto": "string",
+    "tasa_o_porcentaje": "string"
+  }
+}

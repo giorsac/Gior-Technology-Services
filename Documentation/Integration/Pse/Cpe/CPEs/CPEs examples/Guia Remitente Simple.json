@@ -1,0 +1,39 @@
+{
+  "numeracion": "T007-00000002",
+  "fecha_emision": "2024-11-14",
+  "hora_emision": "10:46:00",
+  "numero_ruc_remitente": "20515809822",
+  "denominacion_remitente": "GIOR TECHNOLOGY S.A.C.",
+  "direccion_remitente": "AV. JAVIER PRADO ESTE 6210, LA MOLINA 15023",
+  "urbanizacion_remitente": "LA MOLINA",
+  "provincia_remitente": "LIMA",
+  "ubigeo_remitente": "150114",
+  "departamento_remitente": "LIMA",
+  "distrito_remitente": "LA MOLINA",
+  "tipo_documento_identidad_destinatario": "6",
+  "numero_documento_identidad_destinatario": "20604997551",
+  "denominacion_destinatario": "KAPITAL TELEKOM S.A.C.",
+  "motivo_traslado": "01",
+  "peso_bruto_total_carga": "3180.000",
+  "unidad_medida_peso_bruto_total_carga": "KGM",
+  "modalidad_traslado": "02",
+  "fecha_inicio_traslado": "2024-11-15",
+  "numero_placa_vehiculo_principal": "F1D800",
+  "tipo_documento_identidad_conductor_principal": "1",
+  "numero_documento_identidad_conductor_principal": "12345678",
+  "nombres_conductor_principal": "JUAN PEREZ",
+  "apellidos_conductor_principal": "LOPEZ LOPEZ",
+  "numero_licencia_conducir_conductor_principal": "Q12345678",
+  "ubigeo_punto_partida": "150110",
+  "direccion_punto_partida": "CHACRA CERRO NRO. 103 INT. B-2 EX FUNDO CHACRA CERRO",
+  "ubigeo_punto_llegada": "150135",
+  "direccion_punto_llegada": "AV. A MZ A LT. 12 URB. PRO INDUSTRIAL",
+  "items": [
+    {
+      "cantidad": "3",
+      "unidad_medida": "TE",
+      "descripcion": "LEJIA 8% - TOTEM 1000 KG (UN1791 CLASE 8)",
+      "codigo": "0206LGL8002"
+    }
+  ]
+}

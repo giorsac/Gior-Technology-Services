@@ -1,0 +1,65 @@
+ {
+  "numeracion": "F007-00000010",
+  "moneda": "PEN",
+  "ubigeo_emisor": "040128",
+  "codigo_local_anexo_emisor": "0000",
+  "tipo_operacion": "2001",
+  "codigo_pais_emisor": "PE",
+  "direccion_emisor": "Calle Mariscal Benavides",
+  "tipo_documento_identidad_adquirente": "6",
+  "numero_documento_identidad_adquirente": "20604997551",
+  "denominacion_adquirente": "KAPITAL TELEKOM S.A.C.",
+  "fecha_emision": "2024-10-22",
+  "hora_emision": "08:45:10",
+  "fecha_vencimiento": "2024-05-09",
+  "numero_orden_compra_o_servicio": "0001",
+  "numero_ruc_emisor": "20515809822",
+  "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
+  "items": [
+    {
+      "unidad_medida": "ZZ",
+      "cantidad": "1",
+      "codigo": "001",
+      "descripcion": "SERVICIO",
+      "valor_unitario": "75.00",
+      "precio_venta_unitario": "88.50",
+      "codigo_precio_venta_unitario": "01",
+      "monto_total_tributos": "13.50",
+      "tributos": [
+        {
+          "monto_base": "75.00",
+          "monto_tributo": "13.50",
+          "tasa_tributo": "18.00",
+          "tipo_afectacion_igv": "10",
+          "codigo_tributo": "1000",
+          "nombre_tributo": "IGV",
+          "codigo_internacional_tributo": "VAT"
+        }
+      ],
+      "valor_venta": "75.00"
+    }
+  ],
+  "total": "88.50",
+  "total_valor_venta": "75.00",
+  "subtotal_venta": "88.50",
+  "monto_total_tributos": "13.50",
+  "tributos": [
+    {
+      "monto_base": "75.00",
+      "monto_tributo": "13.50",
+      "codigo_tributo": "1000",
+      "nombre_tributo": "IGV",
+      "codigo_internacional_tributo": "VAT"
+    }
+  ],
+  "cargos_descuentos": [
+    {
+      "indicador_cargo_descuento": true,
+      "codigo_cargo_descuento": "51",
+      "factor_cargo_descuento": "0.02",
+      "monto_cargo_descuento": "1.50",
+      "monto_base_cargo_descuento": "75.00"
+    }
+  ],
+  "monto_total_incluido_percepcion": "10"
+}

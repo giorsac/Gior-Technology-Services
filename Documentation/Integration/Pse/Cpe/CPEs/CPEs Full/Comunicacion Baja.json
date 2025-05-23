@@ -1,0 +1,14 @@
+{
+  "identificador_comunicacion": "string",
+  "fecha_emision_documentos_dados_baja": "string",
+  "numero_ruc_emisor": "string",
+  "denominacion_emisor": "string",
+  "documentos_dados_baja": [
+    {
+      "codigo_tipo_documento": "string",
+      "serie_documento": "string",
+      "numero_correlativo_documento": "string",
+      "motivo_baja": "string"
+    }
+  ]
+}
