@@ -1,15 +1,15 @@
 {
-  "identificador_resumen": "RC-20241204-00004",
-  "fecha_emision_documentos": "2024-12-04",
+  "identificador_resumen": "RC-20250616-00001",
+  "fecha_emision_documentos": "2025-06-16",
   "numero_ruc_emisor": "20515809822",
   "denominacion_emisor": "GIOR TECHNOLOGY S.A.C.",
   "documentos": [
     {
-      "numeracion_documento": "B010-00009141",
+      "numeracion_documento": "B001-00000001",
       "codigo_tipo_documento": "03",
       "numero_documento_identidad_adquirente": "09020857",
       "tipo_documento_identidad_adquirente": "1",
-      "codigo_operacion": "3",
+      "codigo_operacion": "1",
       "total": "1.18",
       "moneda": "PEN",
       "totales": [
