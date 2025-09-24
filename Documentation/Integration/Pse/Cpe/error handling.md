@@ -63,7 +63,11 @@ Cuando un cliente está configurado para enviar comprobantes a través de OSE, e
 
 - Siempre validar el campo status para identificar el tipo de error HTTP retornado.
 
-- Verifiquen si el campo is_rejected está presente y con valor true (1). Esto indica que el comprobante ha sido rechazado y no puede ser reenviado.
+- Disponibilidad del campo is_rejected: Este campo únicamente se encuentra presente cuando la entidad validadora es SUNAT.
+
+- Cuando is_rejected = true (1): El comprobante se encuentra marcado como rechazado por la SUNAT. En este estado, no está permitido reenviarlo, ya que el sistema lo considera definitivamente inválido.
+
+- Cuando is_rejected = false (0): El comprobante no ha sido rechazado. En este escenario, se debe continuar con el flujo correspondiente: iniciar un proceso de corrección o reemisión del comprobante, o, si se trata de una consulta, efectuar los reintentos necesarios hasta completar la validación.
 
 - Mostrar el contenido del array errors al usuario o al desarrollador para facilitar el diagnóstico.
 
