@@ -23,7 +23,7 @@ A continuación se describe el **formato general** y el significado de cada camp
 |**Parámetro**|**Tipo**|                                                             **Descripción**                                                       |
 |:-----------:|:------:|:---------------------------------------------------------------------------------------------------------------------------------:|
 |    status   |  int   |                        Código HTTP que indica el tipo de error (por ejemplo: 400, 401, 404, 500, etc.).                           |
-| is_rejected |  bool  |      Indica si el comprobante fue rechazado por SUNAT. Este campo solo se muestra cuando la entidad validadora no es una OSE.     |
+| is_rejected |  bool  |        Indica si el comprobante fue rechazado por SUNAT. Este campo solo se muestra cuando la entidad validadora es SUNAT.        |
 |    title    | string |                                              Título descriptivo y resumido del error.                                             |
 |    errors   | array  |                               Lista de errores detallados que explican qué falló en la solicitud.                                 |
 
@@ -63,7 +63,8 @@ Cuando un cliente está configurado para enviar comprobantes a través de OSE, e
 
 - Siempre validar el campo status para identificar el tipo de error HTTP retornado.
 
-- Verificar si is_rejected está presente y en true para iniciar un proceso de corrección o reemisión de comprobante.
+- Verifiquen si el campo is_rejected está presente y con valor true (1). Esto indica que el comprobante ha sido rechazado y no puede ser reenviado.
+En caso contrario (es decir, si no fue rechazado), deberán iniciar el proceso correspondiente de corrección o reemisión del comprobante.
 
 - Mostrar el contenido del array errors al usuario o al desarrollador para facilitar el diagnóstico.
 
