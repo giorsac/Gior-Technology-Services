@@ -64,7 +64,6 @@ Cuando un cliente está configurado para enviar comprobantes a través de OSE, e
 - Siempre validar el campo status para identificar el tipo de error HTTP retornado.
 
 - Verifiquen si el campo is_rejected está presente y con valor true (1). Esto indica que el comprobante ha sido rechazado y no puede ser reenviado.
-En caso contrario (es decir, si no fue rechazado), deberán iniciar el proceso correspondiente de corrección o reemisión del comprobante.
 
 - Mostrar el contenido del array errors al usuario o al desarrollador para facilitar el diagnóstico.
 
